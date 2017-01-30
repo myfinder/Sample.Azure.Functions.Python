@@ -32,7 +32,7 @@ returnData = {
     "status": 200,
     
     #Response Body:
-    "body": vars(http),
+    "body": vars(http.post),
     
     # Send any number of HTTP headers
     "headers": {
