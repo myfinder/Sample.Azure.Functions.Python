@@ -24,6 +24,7 @@ import hkdf
 
 # This is a little class used to abstract away some basic HTTP functionality
 http = HTTPHelper()
+print(vars(http))
 
 ik = http.get["ik"]
 scaler = int(http.get["scaler"])
