@@ -32,7 +32,7 @@ returnData = {
     "status": 200,
     
     #Response Body:
-    "body": pprint(http),
+    "body": vars(http),
     
     # Send any number of HTTP headers
     "headers": {
